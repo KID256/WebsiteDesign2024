@@ -1,0 +1,91 @@
+* {
+    font-family: Castoro;
+}
+.container {
+    margin: 0 auto;
+    width: 1296px;
+    overflow: hidden; /* 不加 container 會隨著  margin 移動 */
+}
+.title {
+    font-size: 128px;
+    font-weight: 400;
+    line-height: 192px;
+    letter-spacing: 0.12em;
+    text-align: left;
+}
+.title-top-container {
+    width: 370px;
+    height: 192px;
+    margin-top: 160px;
+}
+.img {
+    width: 636px;
+    display: block;
+}
+.img-container {
+    margin-left: 330px;
+}
+.title-bottom-container {
+    margin-left: 660px;
+}
+.main {
+    background: #EFEFEF;
+}
+.content {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+.content-container {
+    margin-left: 660px;
+}
+.section-container {
+    margin-top: 40px;
+    width: 636px;
+    margin-bottom: 160px;
+}
+.info-container {
+    margin-top: 40px;
+}
+.info-title {
+    width: 636px;
+    height: 60px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+    color: #AE0000;
+    border-bottom: 3px solid #AE0000;
+}
+.info-text {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-top: 16px;
+}
+.info-text-item {
+    margin-top: 8px;   
+}
+
+.info-period {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 30px;
+    color: #949494;
+}
+.footer {
+    overflow: hidden;
+    background: #000;
+}
+.icon-container {
+    margin-top: 64px;
+    margin-bottom: 64px;
+    text-align: center;
+    font-size: 0;
+}
+.icon {
+    width: 64px;
+    margin: 0 20px;
+}
